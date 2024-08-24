@@ -5,7 +5,7 @@ let pauseOverlay;
 
 function initPauseOverlay() {
     pauseOverlay = new Image();
-    pauseOverlay.src = '../img/pause-overlay.png'; // Asegúrate de que la ruta sea correcta
+    pauseOverlay.src = window.location.href+'img/pause-overlay.png'; // Asegúrate de que la ruta sea correcta
 }
 
 function togglePause() {
